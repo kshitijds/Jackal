@@ -1,0 +1,309 @@
+associate.lo associate.o: associate.cpp /usr/include/stdio.h \
+  /usr/include/_types.h /usr/include/sys/_types.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/_types.h \
+  /usr/include/i386/_types.h /usr/include/math.h \
+  /usr/include/architecture/i386/math.h associate.h ../ccstruct/blobs.h \
+  ../ccstruct/rect.h ../ccstruct/points.h ../ccutil/elst.h \
+  ../ccutil/host.h ../ccutil/platform.h \
+  /usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin10/4.2.1/include/limits.h \
+  /usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin10/4.2.1/include/syslimits.h \
+  /Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin10/4.2.1/include/limits.h \
+  /Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin10/4.2.1/include/syslimits.h \
+  /usr/include/limits.h /usr/include/machine/limits.h \
+  /usr/include/i386/limits.h /usr/include/i386/_limits.h \
+  /usr/include/sys/syslimits.h ../ccutil/serialis.h /usr/include/stdlib.h \
+  /usr/include/Availability.h /usr/include/AvailabilityInternal.h \
+  /usr/include/sys/wait.h /usr/include/sys/signal.h \
+  /usr/include/sys/appleapiopts.h /usr/include/machine/signal.h \
+  /usr/include/i386/signal.h /usr/include/i386/_structs.h \
+  /usr/include/sys/_structs.h /usr/include/machine/_structs.h \
+  /usr/include/mach/i386/_structs.h /usr/include/sys/resource.h \
+  /usr/include/machine/endian.h /usr/include/i386/endian.h \
+  /usr/include/sys/_endian.h /usr/include/libkern/_OSByteOrder.h \
+  /usr/include/libkern/i386/_OSByteOrder.h /usr/include/alloca.h \
+  /usr/include/machine/types.h /usr/include/i386/types.h \
+  /usr/include/i386/_types.h /usr/include/string.h ../ccutil/memry.h \
+  /usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin10/4.2.1/include/stddef.h \
+  ../ccutil/errcode.h ../ccutil/fileerr.h ../ccutil/lsterr.h \
+  ../ccstruct/ipoints.h ../ccutil/ndminx.h ../ccutil/tprintf.h \
+  ../ccutil/params.h ../ccutil/genericvector.h ../ccutil/tesscallback.h \
+  ../ccutil/helpers.h ../ccutil/ndminx.h ../ccutil/strngs.h \
+  ../viewer/scrollview.h ../ccstruct/vecfuncs.h ../ccstruct/blobs.h \
+  ../ccutil/elst.h ../ccstruct/matrix.h ../ccstruct/ratngs.h \
+  /usr/include/assert.h ../ccutil/clst.h ../ccutil/genericvector.h \
+  ../ccutil/notdll.h ../ccutil/unichar.h /usr/include/memory.h \
+  ../ccutil/unicharset.h ../ccutil/unichar.h ../ccutil/unicharmap.h \
+  ../ccstruct/werd.h ../ccutil/params.h ../ccutil/bits16.h \
+  ../ccutil/elst2.h ../ccutil/strngs.h ../ccstruct/blckerr.h \
+  ../ccutil/errcode.h ../ccstruct/stepblob.h ../ccstruct/coutln.h \
+  ../ccstruct/crakedge.h ../ccstruct/mod128.h ../ccstruct/ocrrow.h \
+  ../ccstruct/quspline.h ../ccstruct/quadratc.h ../ccutil/serialis.h \
+  ../ccutil/memry.h ../ccstruct/seam.h ../ccstruct/split.h \
+  ../cutil/oldlist.h ../cutil/cutil.h ../ccutil/host.h \
+  ../ccutil/tprintf.h ../cutil/cutil_class.h ../ccutil/ccutil.h \
+  ../ccutil/ambigs.h ../ccutil/elst.h ../ccutil/tprintf.h \
+  ../ccutil/unicharset.h ../ccutil/tessdatamanager.h \
+  /usr/include/pthread.h /usr/include/pthread_impl.h /usr/include/sched.h \
+  /usr/include/time.h /usr/include/_structs.h /usr/include/semaphore.h \
+  /usr/include/sys/types.h /usr/include/sys/fcntl.h \
+  /usr/include/sys/semaphore.h ../cutil/const.h ../ccutil/strngs.h \
+  ../ccutil/tesscallback.h ../cutil/tessarray.h ../ccstruct/split.h \
+  ../dict/states.h ../ccutil/host.h ../classify/baseline.h \
+  ../ccutil/host.h ../ccstruct/blobs.h ../ccutil/params.h \
+  ../ccstruct/normalis.h ../ccutil/host.h
+
+/usr/include/stdio.h:
+
+/usr/include/_types.h:
+
+/usr/include/sys/_types.h:
+
+/usr/include/sys/cdefs.h:
+
+/usr/include/machine/_types.h:
+
+/usr/include/i386/_types.h:
+
+/usr/include/math.h:
+
+/usr/include/architecture/i386/math.h:
+
+associate.h:
+
+../ccstruct/blobs.h:
+
+../ccstruct/rect.h:
+
+../ccstruct/points.h:
+
+../ccutil/elst.h:
+
+../ccutil/host.h:
+
+../ccutil/platform.h:
+
+/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin10/4.2.1/include/limits.h:
+
+/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin10/4.2.1/include/syslimits.h:
+
+/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin10/4.2.1/include/limits.h:
+
+/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin10/4.2.1/include/syslimits.h:
+
+/usr/include/limits.h:
+
+/usr/include/machine/limits.h:
+
+/usr/include/i386/limits.h:
+
+/usr/include/i386/_limits.h:
+
+/usr/include/sys/syslimits.h:
+
+../ccutil/serialis.h:
+
+/usr/include/stdlib.h:
+
+/usr/include/Availability.h:
+
+/usr/include/AvailabilityInternal.h:
+
+/usr/include/sys/wait.h:
+
+/usr/include/sys/signal.h:
+
+/usr/include/sys/appleapiopts.h:
+
+/usr/include/machine/signal.h:
+
+/usr/include/i386/signal.h:
+
+/usr/include/i386/_structs.h:
+
+/usr/include/sys/_structs.h:
+
+/usr/include/machine/_structs.h:
+
+/usr/include/mach/i386/_structs.h:
+
+/usr/include/sys/resource.h:
+
+/usr/include/machine/endian.h:
+
+/usr/include/i386/endian.h:
+
+/usr/include/sys/_endian.h:
+
+/usr/include/libkern/_OSByteOrder.h:
+
+/usr/include/libkern/i386/_OSByteOrder.h:
+
+/usr/include/alloca.h:
+
+/usr/include/machine/types.h:
+
+/usr/include/i386/types.h:
+
+/usr/include/i386/_types.h:
+
+/usr/include/string.h:
+
+../ccutil/memry.h:
+
+/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin10/4.2.1/include/stddef.h:
+
+../ccutil/errcode.h:
+
+../ccutil/fileerr.h:
+
+../ccutil/lsterr.h:
+
+../ccstruct/ipoints.h:
+
+../ccutil/ndminx.h:
+
+../ccutil/tprintf.h:
+
+../ccutil/params.h:
+
+../ccutil/genericvector.h:
+
+../ccutil/tesscallback.h:
+
+../ccutil/helpers.h:
+
+../ccutil/ndminx.h:
+
+../ccutil/strngs.h:
+
+../viewer/scrollview.h:
+
+../ccstruct/vecfuncs.h:
+
+../ccstruct/blobs.h:
+
+../ccutil/elst.h:
+
+../ccstruct/matrix.h:
+
+../ccstruct/ratngs.h:
+
+/usr/include/assert.h:
+
+../ccutil/clst.h:
+
+../ccutil/genericvector.h:
+
+../ccutil/notdll.h:
+
+../ccutil/unichar.h:
+
+/usr/include/memory.h:
+
+../ccutil/unicharset.h:
+
+../ccutil/unichar.h:
+
+../ccutil/unicharmap.h:
+
+../ccstruct/werd.h:
+
+../ccutil/params.h:
+
+../ccutil/bits16.h:
+
+../ccutil/elst2.h:
+
+../ccutil/strngs.h:
+
+../ccstruct/blckerr.h:
+
+../ccutil/errcode.h:
+
+../ccstruct/stepblob.h:
+
+../ccstruct/coutln.h:
+
+../ccstruct/crakedge.h:
+
+../ccstruct/mod128.h:
+
+../ccstruct/ocrrow.h:
+
+../ccstruct/quspline.h:
+
+../ccstruct/quadratc.h:
+
+../ccutil/serialis.h:
+
+../ccutil/memry.h:
+
+../ccstruct/seam.h:
+
+../ccstruct/split.h:
+
+../cutil/oldlist.h:
+
+../cutil/cutil.h:
+
+../ccutil/host.h:
+
+../ccutil/tprintf.h:
+
+../cutil/cutil_class.h:
+
+../ccutil/ccutil.h:
+
+../ccutil/ambigs.h:
+
+../ccutil/elst.h:
+
+../ccutil/tprintf.h:
+
+../ccutil/unicharset.h:
+
+../ccutil/tessdatamanager.h:
+
+/usr/include/pthread.h:
+
+/usr/include/pthread_impl.h:
+
+/usr/include/sched.h:
+
+/usr/include/time.h:
+
+/usr/include/_structs.h:
+
+/usr/include/semaphore.h:
+
+/usr/include/sys/types.h:
+
+/usr/include/sys/fcntl.h:
+
+/usr/include/sys/semaphore.h:
+
+../cutil/const.h:
+
+../ccutil/strngs.h:
+
+../ccutil/tesscallback.h:
+
+../cutil/tessarray.h:
+
+../ccstruct/split.h:
+
+../dict/states.h:
+
+../ccutil/host.h:
+
+../classify/baseline.h:
+
+../ccutil/host.h:
+
+../ccstruct/blobs.h:
+
+../ccutil/params.h:
+
+../ccstruct/normalis.h:
+
+../ccutil/host.h:

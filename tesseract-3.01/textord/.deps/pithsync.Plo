@@ -1,0 +1,255 @@
+pithsync.lo pithsync.o: pithsync.cpp ../ccutil/mfcpch.h \
+  /usr/include/math.h /usr/include/architecture/i386/math.h \
+  /usr/include/sys/cdefs.h ../ccutil/memry.h \
+  /usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin10/4.2.1/include/stddef.h \
+  ../ccutil/host.h ../ccutil/platform.h \
+  /usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin10/4.2.1/include/limits.h \
+  /usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin10/4.2.1/include/syslimits.h \
+  /Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin10/4.2.1/include/limits.h \
+  /Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin10/4.2.1/include/syslimits.h \
+  /usr/include/limits.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/limits.h /usr/include/i386/limits.h \
+  /usr/include/i386/_limits.h /usr/include/sys/syslimits.h makerow.h \
+  ../ccutil/params.h /usr/include/stdio.h /usr/include/_types.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/i386/_types.h ../ccutil/genericvector.h \
+  /usr/include/stdlib.h /usr/include/Availability.h \
+  /usr/include/AvailabilityInternal.h /usr/include/sys/wait.h \
+  /usr/include/sys/signal.h /usr/include/sys/appleapiopts.h \
+  /usr/include/machine/signal.h /usr/include/i386/signal.h \
+  /usr/include/i386/_structs.h /usr/include/sys/_structs.h \
+  /usr/include/machine/_structs.h /usr/include/mach/i386/_structs.h \
+  /usr/include/sys/resource.h /usr/include/machine/endian.h \
+  /usr/include/i386/endian.h /usr/include/sys/_endian.h \
+  /usr/include/libkern/_OSByteOrder.h \
+  /usr/include/libkern/i386/_OSByteOrder.h /usr/include/alloca.h \
+  /usr/include/machine/types.h /usr/include/i386/types.h \
+  /usr/include/i386/_types.h ../ccutil/tesscallback.h ../ccutil/errcode.h \
+  ../ccutil/helpers.h /usr/include/string.h ../ccutil/ndminx.h \
+  ../ccutil/strngs.h ../ccutil/memry.h ../ccutil/serialis.h \
+  ../ccutil/fileerr.h ../ccstruct/ocrblock.h ../image/img.h \
+  ../ccutil/memry.h ../ccstruct/ocrrow.h ../ccstruct/quspline.h \
+  ../ccstruct/quadratc.h ../ccstruct/points.h ../ccutil/elst.h \
+  ../ccutil/lsterr.h ../ccstruct/ipoints.h ../ccutil/serialis.h \
+  ../ccutil/memry.h ../ccstruct/rect.h ../ccutil/ndminx.h \
+  ../ccutil/tprintf.h ../ccutil/params.h ../viewer/scrollview.h \
+  ../ccstruct/werd.h ../ccutil/params.h ../ccutil/bits16.h \
+  ../ccutil/elst2.h ../ccutil/strngs.h ../ccstruct/blckerr.h \
+  ../ccutil/errcode.h ../ccstruct/stepblob.h ../ccstruct/coutln.h \
+  ../ccstruct/crakedge.h ../ccstruct/mod128.h ../ccstruct/pdblock.h \
+  ../ccutil/clst.h ../ccstruct/polyblk.h ../ccstruct/publictypes.h \
+  ../ccstruct/hpddef.h ../ccstruct/blobs.h ../ccstruct/vecfuncs.h \
+  ../ccstruct/blobs.h ../ccstruct/blobbox.h ../ccstruct/ocrblock.h \
+  ../ccstruct/statistc.h ../ccutil/host.h ../ccstruct/statistc.h \
+  ../ccutil/notdll.h pitsync1.h ../ccutil/elst.h ../ccutil/clst.h \
+  pithsync.h topitch.h ../ccutil/tprintf.h
+
+../ccutil/mfcpch.h:
+
+/usr/include/math.h:
+
+/usr/include/architecture/i386/math.h:
+
+/usr/include/sys/cdefs.h:
+
+../ccutil/memry.h:
+
+/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin10/4.2.1/include/stddef.h:
+
+../ccutil/host.h:
+
+../ccutil/platform.h:
+
+/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin10/4.2.1/include/limits.h:
+
+/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin10/4.2.1/include/syslimits.h:
+
+/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin10/4.2.1/include/limits.h:
+
+/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin10/4.2.1/include/syslimits.h:
+
+/usr/include/limits.h:
+
+/usr/include/sys/cdefs.h:
+
+/usr/include/machine/limits.h:
+
+/usr/include/i386/limits.h:
+
+/usr/include/i386/_limits.h:
+
+/usr/include/sys/syslimits.h:
+
+makerow.h:
+
+../ccutil/params.h:
+
+/usr/include/stdio.h:
+
+/usr/include/_types.h:
+
+/usr/include/sys/_types.h:
+
+/usr/include/machine/_types.h:
+
+/usr/include/i386/_types.h:
+
+../ccutil/genericvector.h:
+
+/usr/include/stdlib.h:
+
+/usr/include/Availability.h:
+
+/usr/include/AvailabilityInternal.h:
+
+/usr/include/sys/wait.h:
+
+/usr/include/sys/signal.h:
+
+/usr/include/sys/appleapiopts.h:
+
+/usr/include/machine/signal.h:
+
+/usr/include/i386/signal.h:
+
+/usr/include/i386/_structs.h:
+
+/usr/include/sys/_structs.h:
+
+/usr/include/machine/_structs.h:
+
+/usr/include/mach/i386/_structs.h:
+
+/usr/include/sys/resource.h:
+
+/usr/include/machine/endian.h:
+
+/usr/include/i386/endian.h:
+
+/usr/include/sys/_endian.h:
+
+/usr/include/libkern/_OSByteOrder.h:
+
+/usr/include/libkern/i386/_OSByteOrder.h:
+
+/usr/include/alloca.h:
+
+/usr/include/machine/types.h:
+
+/usr/include/i386/types.h:
+
+/usr/include/i386/_types.h:
+
+../ccutil/tesscallback.h:
+
+../ccutil/errcode.h:
+
+../ccutil/helpers.h:
+
+/usr/include/string.h:
+
+../ccutil/ndminx.h:
+
+../ccutil/strngs.h:
+
+../ccutil/memry.h:
+
+../ccutil/serialis.h:
+
+../ccutil/fileerr.h:
+
+../ccstruct/ocrblock.h:
+
+../image/img.h:
+
+../ccutil/memry.h:
+
+../ccstruct/ocrrow.h:
+
+../ccstruct/quspline.h:
+
+../ccstruct/quadratc.h:
+
+../ccstruct/points.h:
+
+../ccutil/elst.h:
+
+../ccutil/lsterr.h:
+
+../ccstruct/ipoints.h:
+
+../ccutil/serialis.h:
+
+../ccutil/memry.h:
+
+../ccstruct/rect.h:
+
+../ccutil/ndminx.h:
+
+../ccutil/tprintf.h:
+
+../ccutil/params.h:
+
+../viewer/scrollview.h:
+
+../ccstruct/werd.h:
+
+../ccutil/params.h:
+
+../ccutil/bits16.h:
+
+../ccutil/elst2.h:
+
+../ccutil/strngs.h:
+
+../ccstruct/blckerr.h:
+
+../ccutil/errcode.h:
+
+../ccstruct/stepblob.h:
+
+../ccstruct/coutln.h:
+
+../ccstruct/crakedge.h:
+
+../ccstruct/mod128.h:
+
+../ccstruct/pdblock.h:
+
+../ccutil/clst.h:
+
+../ccstruct/polyblk.h:
+
+../ccstruct/publictypes.h:
+
+../ccstruct/hpddef.h:
+
+../ccstruct/blobs.h:
+
+../ccstruct/vecfuncs.h:
+
+../ccstruct/blobs.h:
+
+../ccstruct/blobbox.h:
+
+../ccstruct/ocrblock.h:
+
+../ccstruct/statistc.h:
+
+../ccutil/host.h:
+
+../ccstruct/statistc.h:
+
+../ccutil/notdll.h:
+
+pitsync1.h:
+
+../ccutil/elst.h:
+
+../ccutil/clst.h:
+
+pithsync.h:
+
+topitch.h:
+
+../ccutil/tprintf.h:

@@ -1,0 +1,3 @@
+publictypes.lo publictypes.o: publictypes.cpp publictypes.h
+
+publictypes.h:
